@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_other"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.xzz.rxjava.OtherActivity">
+
+    <Button
+        android:id="@+id/timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="timestamp" />
+
+    <Button
+        android:id="@+id/timeInterval"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="timeInterval" />
+
+    <Button
+        android:id="@+id/doOn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="do(doOn...doAfter...)" />
+
+    <Button
+        android:id="@+id/delay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="delay" />
+
+    <Button
+        android:id="@+id/delaySubscription"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="delaySubscription" />
+
+    <Button
+        android:id="@+id/using"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="using" />
+
+    <TextView
+        android:id="@+id/log_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

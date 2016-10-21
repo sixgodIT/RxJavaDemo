@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_schedular"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.xzz.rxjava.SchedulerActivity">
+
+    <Button
+        android:id="@+id/scheduler"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Scheduler(调度器)" />
+    <Button
+        android:id="@+id/blocking"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Blocking(阻塞操作)" />
+    <Button
+        android:id="@+id/connectable"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="connectable(连接操作)" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/log_text"
+        android:layout_height="wrap_content" />
+</LinearLayout>
